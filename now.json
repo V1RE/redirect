@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "alias": [
+    "ment.ink",
+    "www.ment.ink",
+    "www.niels.ment.ink",
+    "nielsmentink.tk",
+    "www.nielsmentink.tk"
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "status": 301,
+      "headers": {
+        "Location": "https://niels.ment.ink/$1"
+      }
+    }
+  ]
+}
